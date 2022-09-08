@@ -1,24 +1,28 @@
 import React from "react";
-import Fade from 'react-reveal/Fade';
+import Fade from "react-reveal/Fade";
+import Lottie from "lottie-react";
+import heroImg from "../assets/crypto-vector.json";
+
 const HeroSection = () => {
-    return (
-        <>
-        <div>
-        <Fade bottom>
-            <h1 className="main_headings title">
-                CRYPTO
-                
-                FORENSICS
-            </h1>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
-                ut ab ex tenetur amet fuga magni quidem obcaecati consectetur
-                voluptatibus?
-            </p>
+   return (
+      <>
+         <div className="hero_container flex jc-sb">
+            <Fade bottom>
+               <div className="content">
+                  <h1 className="main_headings title">CRYPTO FORENSICS</h1>
+                  <p>
+                     Buy & trade on the original crypto exchange. Crypto Forensics makes
+                     trading easy, fast & reliable. With 24/7 support, staking
+                     and bank-grade security & insurance. 
+                  </p>
+               </div>
             </Fade>
-        </div>
-        </>
-    );
+            <div className="hero_img_container">
+               <Lottie animationData={heroImg} loop={true} />
+            </div>
+         </div>
+      </>
+   );
 };
 
 export default HeroSection;
