@@ -7,7 +7,7 @@ const Header = () => {
         <div className="logo">
             <Link to="/" id='logo'>Cryptonion <AllInclusiveIcon className="logoIcon"/> </Link>
         </div>
-        <button className="btn btn_fill_light">Login</button>
+     
     </div>
   )
 }

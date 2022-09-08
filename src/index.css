@@ -83,7 +83,7 @@ p {
    padding: 3rem 2rem;
 }
 .header {
-   padding: 1.9rem 0;
+   padding: 1.2rem 0;
 }
 
 .tableRow:hover {
@@ -203,7 +203,11 @@ p {
 }
 .btn_started {
    background-color: #3339a1;
-
+   font-size: 1rem;
+   padding: 1rem 1.4rem;
+   border: 1px solid transparent;
+   border-radius: 0.2rem;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
    color: #ffffff !important;
 }
 /* .rank{

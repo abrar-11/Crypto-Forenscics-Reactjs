@@ -16,7 +16,7 @@ const HeroSection = () => {
                      makes trading easy, fast & reliable. With 24/7 support,
                      staking and bank-grade security & insurance.
                   </p>
-                  <button className="btn btn_started">Get Started</button>
+                  <button className="btn_started">Get Started</button>
                </div>
             </Fade>
             <div className="hero_img_container">
