@@ -1,0 +1,43 @@
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+    margin: 3rem auto;
+  }
+  
+.card{
+    align-items: flex-start;
+    padding: 1.4rem;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    background-color: #24204B;
+    border-radius: 20px;
+  }
+  .info{
+      border: 1px solid red;
+width: 60%;
+      /* flex: auto; */
+  }
+  .img_wrapper{
+      width: 30%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* padding: 1.6rem 0; */
+      height: 3.6rem;
+      margin-right: 0.7rem;
+  }
+  .title{
+      margin: 0;
+  }
+  .img_wrapper img{
+    max-width: 80%;
+  }
+.currentPrice{
+    line-height: 0;    
+ }
+  .grid .text {
+    padding: 20px;
+  }
+  

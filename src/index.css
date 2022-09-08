@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+:root {
+  --bg: #1E1B3E;
+  --dark: #16132F;
+  --primary: #24204B;
+  --secondary: #5B39DB;
+  --purple: #3339A1;
+  --light: #6B66A3;
+  --text-light: #CBC9E5;
+  --text: #CBC9E5;
+  --white:#fff;
+  --main-heading: 40px;
+  --normal-text: 15px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  /* overflow-x: hidden; */
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient( var(--dark),var(--bg));
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: var(--text);
+}
+*,*::before,*::after{
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.CoinLink{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #CBC9E5;
+  margin:0;
+  padding: 0;
+}
+.container {
+  width: 80%;
+
+  max-width: 1200px;
+
+  margin: auto;
+}
+
+p {
+  font-size: var(--normal-text);
+  line-height: 1.6rem;
+  font-weight: 400;
+}
+
+.section_spacing {
+  padding: 3rem 2rem;
+}
+.header{
+  padding: 1.9rem 0;
+}
+
+.tableRow:hover{
+  background: var(--dark);
+  transition: 0.4s all ease-in-out;
+}
+.btn {
+  width: 5.5rem;
+  font-family: 'Open Sans';
+  height: 2.6rem;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  cursor: pointer;
+  user-select: none;
+}
+.increase{
+  color: #21BB4E !important; 
+}
+.decrease{
+  color: #EB4B2F !important;
+}
+.arrowIcon{
+  /* border: 1px solid red; */
+  margin: 0;
+  margin-bottom: -4px;
+}
+/* .percentage{
+  display: flex !important;
+  align-items: center;
+} */
+.main_headings {
+  font-size: clamp(20px, 10vw, var(--main-heading));
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+  color: var(--white);
+
+}
+.title{
+  border-bottom: 0.5rem solid #21BB4E;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+.text_center{
+  text-align: center;
+}
+
+.btn_fill_light {
+  color: var(--white);
+  background-color: var(--purple);
+}
+
+.gradient {
+    
+  background: -webkit-linear-gradient(var(--purple),#F0A425);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.coinIcon{
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.6rem;
+}
+
+#logo{
+  text-decoration: none;
+  color: var(--white);
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+}
+.logoIcon{
+  margin-left: 0.5rem;
+  color: #21BB4E;
+}
+/* COin Page */
+.CoinName{
+  text-transform: capitalize;
+  font-size: 3rem;
+  border-bottom: 0.3rem solid #21BB4E;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+
+}
+.img_container{
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.chart{
+  margin: 5rem 0;
+}
+.symbol{
+  color: white;
+  font-size: 1.3rem;
+}
+.desc a{
+  color: #EB4B2F;
+}
+.sym{
+  color: #21BB4E;
+
+}
+.crLink{
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.expandIcon{
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.desc{
+  transition: 0.5s all ease;
+}
+
+/* .rank{
+  width: 1rem;
+} */
+/* ===========Media Queires========== */
+
+@media screen and (max-width : 1050px) {
+  .section_spacing {
+    padding: 2rem 0rem;
+  }
+}
+
+@media screen and (max-width : 700px) {
+
+  .section_spacing {
+    padding: 0;
+  }
+  .mbHide{
+    display: none !important;
+  }
+}
+
+@media screen and (max-width : 550px) {
+  .main_headings{
+    font-size: 33px;
+  }
+ 
+  .container {
+    width: 92%;
+
+  }
+  .section_spacing {
+    padding: 2.5rem 1rem;
+  }
+
+  .subPara {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+}
