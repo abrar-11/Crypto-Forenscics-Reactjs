@@ -120,11 +120,15 @@ p {
    margin-bottom: 0.7rem;
    color: var(--white);
 }
+.content p {
+   font-size: 1.12rem;
+}
 
 .title {
    border-bottom: 0.5rem solid #21bb4e;
    display: inline-block;
    padding-bottom: 0.5rem;
+   font-size: 3.5rem;
 }
 .text_center {
    text-align: center;
@@ -197,11 +201,20 @@ p {
 .desc {
    transition: 0.5s all ease;
 }
+.btn_started {
+   background-color: #3339a1;
 
+   color: #ffffff !important;
+}
 /* .rank{
   width: 1rem;
 } */
 /* ===========Media Queires========== */
+.hero_container {
+   padding-top: 0rem;
+
+   /* align-items: flex-start; */
+}
 .hero_container .content {
    width: 60%;
 }
@@ -230,9 +243,8 @@ p {
       align-items: center;
       justify-content: center;
    }
-   .hero_img_container{
-
-    width: 100%;
+   .hero_img_container {
+      width: 100%;
    }
 }
 

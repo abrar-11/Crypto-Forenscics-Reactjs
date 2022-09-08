@@ -9,7 +9,7 @@ const Home = () => {
 
     return (
     
-            <div className="container section_spacing ">
+            <div className="container  ">
                 <HeroSection />
                 <Crousel />
                 <CoinTableContainer />

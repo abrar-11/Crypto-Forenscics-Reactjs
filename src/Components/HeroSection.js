@@ -11,10 +11,12 @@ const HeroSection = () => {
                <div className="content">
                   <h1 className="main_headings title">CRYPTO FORENSICS</h1>
                   <p>
-                     Buy & trade on the original crypto exchange. Crypto Forensics makes
-                     trading easy, fast & reliable. With 24/7 support, staking
-                     and bank-grade security & insurance. 
+                     The most comprehensive Global Crypto Survey is here. Buy &
+                     trade on the original crypto exchange. Crypto Forensics
+                     makes trading easy, fast & reliable. With 24/7 support,
+                     staking and bank-grade security & insurance.
                   </p>
+                  <button className="btn btn_started">Get Started</button>
                </div>
             </Fade>
             <div className="hero_img_container">
